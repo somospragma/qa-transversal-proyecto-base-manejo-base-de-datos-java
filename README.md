@@ -1,10 +1,18 @@
 # proyecto-base-manejo-base-de-datos-java
 
 ## Name
-...
+Proyecto Base para el Manejo de Base de Datos en Java
 
 ## Description
-...
+Este proyecto base proporciona una estructura inicial para el desarrollo de automatizaciones web en Java 
+que involucran el manejo de bases de datos. 
+Incluye configuraciones básicas, como la conexión a la base de datos la cual es privada y esta sobre un motor
+de base de datos web, en caso de requerir mas info contacte al colaborador, tambien se trabajo con un
+esquema general para organizar y desarrollar 
+las funcionalidades relacionadas con la base de datos de manera eficiente y estructurada. 
+Utiliza las mejores prácticas y patrones de diseño para garantizar la escalabilidad, 
+mantenibilidad y robustez del sistema. Este proyecto sirve como punto de partida para 
+construir aplicaciones Java que requieren interacción con bases de datos de diversos tipos y tamaños.
 
 ## Utilities
 Encontrara utilidades para:
@@ -21,11 +29,9 @@ Encontrara utilidades para:
         adiciones la dependencia del driver al build.gradle y configure este driver como observa 
         se realizo para MySQL en: 
     
-            ./src/main/java/utils/data/ConnectionManagerDB.java
+            ./src/main/java/utils/ConectionBD.java
         
         Nota: Algunos motores de BD no requieren agregar la dependencia del driver como Oracle o MSserver
-
--   [Documento de Google Sheet](https://docs.google.com/spreadsheets/d/1t2q5uJ1-rTwx0_AhS7mHKnaehTnLqGK8RR_I6ExZRHc/edit#gid=0)
 
 ## ✅ Technologies
 ### This project required:
@@ -56,7 +62,7 @@ Use examples liberally, and show the expected output if you can. It's helpful to
 
 ```
 cd existing_repo
-git remote add origin https://gitlab.com/calidad_de_software/framework-actions-automation.git
+git remote add origin https://gitlab.com/calidad_de_software/digital-assests/transversal/manejo-database-java/proyecto-base-manejo-base-de-datos-java.git
 git branch -M develop
 git push -uf origin develop
 ```
@@ -87,11 +93,11 @@ Nota:
 ##  🛠️ Run tests Firefox gradle:
 ```
 ./gradlew clean test -Dcontext=firefox '-Dwebdriver.driver=firefox'
-./gradlew test --tests "co.com.pragma.runners.LoginRunner" '-Dcontext=firefox -Dwebdriver.driver=firefox'
+./gradlew test --tests "runners.RunnerTags" '-Dcontext=firefox -Dwebdriver.driver=firefox'
 ```
 ### ejemplo
 ```
-./gradlew clean test --info --stacktrace --tests "co.com.pragma.runners.LoginRunner" '-Dcontext=firefox -Dwebdriver.driver=firefox'
+./gradlew clean test --info --stacktrace --tests "runners.RunnerTags" '-Dcontext=firefox -Dwebdriver.driver=firefox'
 ```
 
 ## **Run tests in different environments:**
@@ -112,23 +118,6 @@ gradle command... -Dwebdriver.driver=chrome
 gradle command... -Dwebdriver.driver=firefox
 gradle command... -Dwebdriver.driver=edge
 ```
-### Note:
-    - The chrome browser will be used if no other value is provided
-    - Could add browser in ./src/test/java/co/com/pragma/stepdefinitions/SerenityWebHooks.java
-
-## Image Comparison
-### About:
-This is a library available to perform absolute comparison tests between images. Note that the concept of absolute comparison is based on the evaluation of pixel-by-pixel values between the images involved, which brings limitations to the testing.
-### Source
-https://github.com/romankh3/image-comparison
-### Use of archetype and image comparison classes
-To use this implementation in your projects, you need to create the following folders:
-1. create this path : /resources/data/screenshot - in this route you will be able to save the screenshot took by utility class called *ScreenshotProvider*.
-2. in  /resources/data/ : in this path you will be able to save your image to test the scenarios in *compare_image.feature*
-3. You need to create this path : /resources/results - to save the results of image comparison Task 
-
-
-
 
 ## Collaborate with your team
 
