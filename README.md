@@ -9,18 +9,29 @@
 <h4 align="center">Proyecto base de <a href="https://github.com/karatelabs/karate" target="_blank">Pragma</a>.</h4>
 
 <p align="center">
-  <a href="https://badge.fury.io/js/electron-markdownify">
-    <img src="https://badge.fury.io/js/electron-markdownify.svg"
-         alt="Gitter">
+  <a href="https://www.oracle.com/java/technologies/javase-jdk11-downloads.html">
+    <img src="https://img.shields.io/badge/Java-11+-orange.svg" alt="Java">
   </a>
-  <a href="https://gitter.im/amitmerchant1990/electron-markdownify"><img src="https://badges.gitter.im/amitmerchant1990/electron-markdownify.svg"></a>
-  <a href="https://saythanks.io/to/bullredeyes@gmail.com">
-      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
+  <a href="https://www.mysql.com/">
+    <img src="https://img.shields.io/badge/Database-MySQL-blue.svg" alt="MySQL">
   </a>
-  <a href="https://www.paypal.me/AmitMerchant">
-    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
+  <a href="https://www.postgresql.org/">
+    <img src="https://img.shields.io/badge/Database-PostgreSQL-blue.svg" alt="PostgreSQL">
+  </a>
+  <a href="https://www.w3schools.com/sql/">
+    <img src="https://img.shields.io/badge/SQL-Fundamentals-lightgrey.svg" alt="SQL">
+  </a>
+  <a href="https://cucumber.io/">
+    <img src="https://img.shields.io/badge/Cucumber-BDD-green.svg" alt="Cucumber">
+  </a>
+  <a href="https://serenity-bdd.info/">
+    <img src="https://img.shields.io/badge/Serenity-Reporting-blueviolet.svg" alt="Serenity">
+  </a>
+  <a href="https://www.selenium.dev/">
+    <img src="https://img.shields.io/badge/Selenium-Web_Testing-brightgreen.svg" alt="Selenium">
   </a>
 </p>
+
 Este proyecto base proporciona una estructura inicial para el desarrollo de automatizaciones web en Java 
 que involucran el manejo de bases de datos. 
 Incluye configuraciones básicas, como la conexión a la base de datos la cual es privada y esta sobre un motor
